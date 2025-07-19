@@ -1,0 +1,33 @@
+mkdir yash117
+
+cd yash117
+
+git init
+
+mkdir java ds sdm
+
+cd ds
+
+nano hello.txt
+
+cd ..
+
+cd java
+
+nano hello.txt
+
+cd ..
+
+cd sdm
+
+nano hello.txt
+
+git status
+
+git add .
+
+git status
+
+git commit -m "commited"
+
+git push origin main
